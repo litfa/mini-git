@@ -1,0 +1,26 @@
+{
+  "name": "mini-git",
+  "version": "1.0.0",
+  "description": "简化 `git` 命令行操作",
+  "main": "g.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/litfa/mini-git.git"
+  },
+  "keywords": [
+    "mini-git"
+  ],
+  "author": "litfa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/litfa/mini-git/issues"
+  },
+  "homepage": "https://github.com/litfa/mini-git#readme",
+  "dependencies": {
+    "minimist": "^1.2.6",
+    "zx": "^6.1.0"
+  }
+}
